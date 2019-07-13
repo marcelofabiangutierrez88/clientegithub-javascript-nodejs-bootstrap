@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--CDN BOOTSTRAP-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--CSS ANIMATED-->
+    <link rel = " stylesheet " href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" >
+    <!--IONICS
+    <link  href=" https://unpkg.com/ionicons@4.2.2/dist/css/ionicons.min.css"  rel = "stylesheet " >
+        -->
+       <!--FONTAWESOME--> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+
+    <title>Github Client</title>
+</head>
+<body>
+   <!--NAVEGATION-->
+   <nav class="navbar navbar-dark bg-dark text-white ">
+       <a href="/" class="navbar-brand"> 
+        <i class="fab fa-github"></i> Github Users | Marcelo Gutierrez 2019 &copy;
+    </a>
+    <form id="useForm" class="form-inline my-2 my-0">
+        <input id="textSearch" type="search" class="form-control mr-sm-2" placeholder="Ingrese Usuario Github" autofocus>
+        <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Buscar</button>
+    </form>
+   </nav>
+
+<div class="container">
+    <div class="row">
+        <div id="profile" class="col-md-4">  </div>
+        <div class="col-md-8">
+            <div id="repositories"></div>
+        </div>
+    </div>
+</div>
+
+
+<!--IONICS
+<script  src = "https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js" > </ script >
+-->
+</body>
+</html>
